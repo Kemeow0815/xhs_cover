@@ -45,13 +45,13 @@ export default function RootLayout({
           `}
         </Script>
         {/* cloudflare analytics，不用请注释 */}
-        /* {process.env.NODE_ENV === 'production' && (
+        {/* {process.env.NODE_ENV === 'production' && (
           <Script
             defer
             src='https://static.cloudflareinsights.com/beacon.min.js'
             data-cf-beacon={`{"token": "${process.env.NEXT_PUBLIC_CLOUDFLARE_ANALYTICS_TOKEN}"}`}
           />
-        )} */
+        )} */}
       </body>
     </html>
   )
